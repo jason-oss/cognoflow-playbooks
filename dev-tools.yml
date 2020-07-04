@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: ubuntubase
   become: true
   tasks:
   - name: Install visual studio code
