@@ -1,0 +1,7 @@
+- hosts: localhost
+  become: true
+  tasks:
+  - name: Install visual studio code
+    snap:
+      name: code
+      classic: yes
