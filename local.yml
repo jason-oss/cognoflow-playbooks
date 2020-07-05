@@ -42,7 +42,7 @@
 
     - name: install youtube_dl
       pip:
-        name: youtuble_dl
+        name: youtube_dl
 
 
 
