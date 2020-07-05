@@ -15,4 +15,9 @@
       snap:
         name: amass
         classic: yes
+    - name: install keepassxc
+      snap:
+        name: keepassxc
+        classic: yes
+        
 
