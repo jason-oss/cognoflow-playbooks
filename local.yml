@@ -53,4 +53,8 @@
     - name: install instaloader
       pip: 
         name: instaloader
-        
+    - name: install twint
+      pip:
+        name: https://github.com/twintproject/twint.git
+        requirements: twint/requirements.txt
+
