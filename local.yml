@@ -56,5 +56,8 @@
     - name: install twint
       pip:
         name: git+https://github.com/twintproject/twint.git
+    - name: install Sublist3r
+      pip:
+        name: git+https://github.com/aboul3la/Sublist3r.git
 
 

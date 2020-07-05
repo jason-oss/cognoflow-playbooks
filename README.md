@@ -14,4 +14,8 @@
 Execute the following to begin installation
 ````
 sudo ansible-pull -U https://github.com/jason-oss/playbooks.git
+
+or
+
+sudo ansible-pull -U https://github.com/jason-oss/playbooks.git -vvvv
 ````
