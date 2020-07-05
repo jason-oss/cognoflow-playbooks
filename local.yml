@@ -19,5 +19,10 @@
       snap:
         name: keepassxc
         classic: yes
+
+    - name: install ffmpeg
+      apt:
+        name: ffmpeg
         
+
 
