@@ -81,7 +81,11 @@
     #    name: git+https://github.com/laramies/theHarvester.git
     #    version: 3.1
 
-    - name: install metagoofil
+    #- name: install metagoofil
+    #  pip:
+    #    name:  git+https://github.com/opsdisk/metagoofil.git
+
+    - name: install recon-ng
       pip:
-        name:  git+https://github.com/opsdisk/metagoofil.git
-         
+        name: git+https://github.com/lanmaster53/recon-ng.git
+        
