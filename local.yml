@@ -59,9 +59,12 @@
     - name: install Sublist3r
       pip:
         name: git+https://github.com/aboul3la/Sublist3r.git
-    - name: install photon
+    # TODO:  migrate photon to docker build
+    #- name: install photon
+    #  pip:
+    #    name: git+https://github.com/s0md3v/Photon.git
+    - name: install theHarvester
       pip:
-        name: git+https://github.com/s0md3v/Photon.git
-    
+        name: git+https://github.com/laramies/theHarvester.git
 
 
