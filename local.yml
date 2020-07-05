@@ -67,14 +67,17 @@
     #  pip:
     #    name: git+https://github.com/s0md3v/Photon.git
     
-    - name: clone theHarvester
-      git: 
-        repo: https://github.com/laramies/theHarvester.git
-        dest: /src/theHarvester
+    #- name: clone theHarvester
+    #  git: 
+    #    repo: https://github.com/laramies/theHarvester.git
+    #    dest: /src/theHarvester
+    #- name: install theHarvester
+    #  pip: 
+    #    chdir: /src/theHarvester
+    #    requirements: requirements/base.txt
+
     - name: install theHarvester
       pip: 
-        chdir: /src/theHarvester
-        requirements: requirements/base.txt
-
-
+        name: git+https://github.com/laramies/theHarvester.git
+        version: 3.1
 
