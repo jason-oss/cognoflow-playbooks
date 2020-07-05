@@ -50,4 +50,7 @@
     - name: install instalooter
       pip: 
         name: instalooter
+    - name: install instaloader
+      pip: 
+        name: instaloader
         
