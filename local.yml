@@ -26,7 +26,10 @@
     - name: install pip3
       apt:
         name: python3-pip
-        
+    - name: install curl
+      apt:
+        name: curl
+
 
 
 
