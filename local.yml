@@ -20,6 +20,7 @@
         name: keepassxc
         classic: yes
 
+
     - name: install ffmpeg
       apt:
         name: ffmpeg
@@ -39,6 +40,9 @@
       apt:
         name: webhttrack
 
+    - name: install youtube_dl
+      pip:
+        name: youtuble_dl
 
 
 
