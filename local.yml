@@ -29,6 +29,9 @@
     - name: install curl
       apt:
         name: curl
+    - name: isntall mediainfo
+      apt:
+        name: mediainfo-gui
 
 
 
