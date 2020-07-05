@@ -35,6 +35,9 @@
     - name: install libimage-exiftool-perl
       apt:
         name: libimage-exiftool-perl
+    - name: install webhttrack
+      apt:
+        name: webhttrack
 
 
 
