@@ -66,10 +66,11 @@
     #- name: install photon
     #  pip:
     #    name: git+https://github.com/s0md3v/Photon.git
-    - name: install theHarvester
-      pip:
-        name: git+https://github.com/laramies/theHarvester.git
-        chdir: theHarvester
-        requirements: requirements/base.txt
+    
+
+    - git: 
+        repo: https://github.com/laramies/theHarvester.git
+        dest: /src/TheHarvester
+
 
 
