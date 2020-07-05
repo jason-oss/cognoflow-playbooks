@@ -69,5 +69,7 @@
     - name: install theHarvester
       pip:
         name: git+https://github.com/laramies/theHarvester.git
+        chdir: theHarvester
+        requirements: requirements/base.txt
 
 
