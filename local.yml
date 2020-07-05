@@ -40,9 +40,10 @@
       apt:
         name: webhttrack
 
-    - name: install youtube_dl
-      pip:
-        name: youtube_dl
+    - name: install youtube-dl
+      snap:
+        name: youtube-dl
+        classic: yes
 
 
 
