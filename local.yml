@@ -19,6 +19,12 @@
       snap:
         name: keepassxc
         classic: yes
+    - name: install youtube-dl
+      snap:
+        name: youtube-dl
+        classic: yes
+
+
 
 
     - name: install ffmpeg
@@ -40,10 +46,8 @@
       apt:
         name: webhttrack
 
-    - name: install youtube-dl
-      snap:
-        name: youtube-dl
-        classic: yes
 
-
-
+    - name: install instalooter
+      pip: 
+        name: instalooter
+        
