@@ -59,5 +59,9 @@
     - name: install Sublist3r
       pip:
         name: git+https://github.com/aboul3la/Sublist3r.git
+    - name: install photon
+      pip:
+        name: git+https://github.com/s0md3v/Photon.git
+    
 
 
