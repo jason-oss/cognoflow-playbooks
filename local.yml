@@ -76,8 +76,8 @@
     #    chdir: /src/theHarvester
     #    requirements: requirements/base.txt
 
-    - name: install theHarvester
-      pip: 
-        name: git+https://github.com/laramies/theHarvester.git
-        version: 3.1
+    #- name: install theHarvester
+    #  pip: 
+    #    name: git+https://github.com/laramies/theHarvester.git
+    #    version: 3.1
 
