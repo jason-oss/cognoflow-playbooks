@@ -85,7 +85,14 @@
     #  pip:
     #    name:  git+https://github.com/opsdisk/metagoofil.git
 
+    - name: clone recon-ng
+      git:
+        repo: https://github.com/lanmaster53/recon-ng.git
+        dest: /src/recon-ng
+
+
     - name: install recon-ng
       pip:
-        name: git+https://github.com/lanmaster53/recon-ng.git
-        
+        chdir: /src/recon-ng
+        requirements: REQUIREMENTS
+        #name: git+https://github.com/lanmaster53/recon-ng.git
