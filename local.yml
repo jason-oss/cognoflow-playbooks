@@ -88,6 +88,9 @@
     #- name: install metagoofil
     #  pip:
     #    name:  git+https://github.com/opsdisk/metagoofil.git
-    - name: install sherlock
+    #- name: install sherlock
+    #  pip:
+    #    name: git+https://github.com/sherlock-project/sherlock.git
+    - name: install spiderfoot
       pip:
-        name: git+https://github.com/sherlock-project/sherlock.git
+        name: git+https://github.com/smicallef/spiderfoot.git
