@@ -32,6 +32,9 @@
     - name: isntall mediainfo
       apt:
         name: mediainfo-gui
+    - name: install libimage-exiftool-perl
+      apt:
+        name: libimage-exiftool-perl
 
 
 
