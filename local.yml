@@ -88,3 +88,6 @@
     #- name: install metagoofil
     #  pip:
     #    name:  git+https://github.com/opsdisk/metagoofil.git
+    - name: install sherlock
+      pip:
+        name: git+https://github.com/sherlock-project/sherlock.git
