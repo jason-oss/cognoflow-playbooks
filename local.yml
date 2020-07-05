@@ -81,3 +81,7 @@
     #    name: git+https://github.com/laramies/theHarvester.git
     #    version: 3.1
 
+    - name: install metagoofil
+      pip:
+        name:  git+https://github.com/opsdisk/metagoofil.git
+         
