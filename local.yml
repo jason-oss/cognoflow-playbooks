@@ -45,6 +45,9 @@
     - name: install webhttrack
       apt:
         name: webhttrack
+    - name: install pipenv
+      apt:
+        name: pipenv
 
 
     - name: install instalooter
