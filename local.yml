@@ -56,5 +56,5 @@
     - name: install twint
       pip:
         name: https://github.com/twintproject/twint.git
-        requirements: /twint/requirements.txt
+        #requirements: /twint/requirements.txt
 
