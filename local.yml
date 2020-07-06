@@ -74,7 +74,7 @@
     #     name: python3-virtualenv
     - name: install photon
       pip:
-        name: phton
+        name: photon
     
     #- name: clone theHarvester
     #  git: 
