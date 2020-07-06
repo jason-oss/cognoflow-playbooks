@@ -70,7 +70,7 @@
 
     #TODO:  migrate photon to docker build
     - name: install virtualenv
-      pip: 
+      apt: 
         name: python3-virtualenv
     - name: install photon
       pip:
