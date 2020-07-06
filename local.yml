@@ -69,12 +69,12 @@
 
 
     #TODO:  migrate photon to docker build
-    - name: install virtualenv
-      apt: 
-        name: python3-virtualenv
+    # - name: install virtualenv
+    #   apt: 
+    #     name: python3-virtualenv
     - name: install photon
       pip:
-        name: git+https://github.com/s0md3v/Photon.git
+        name: phton
     
     #- name: clone theHarvester
     #  git: 
