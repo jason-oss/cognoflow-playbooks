@@ -3,73 +3,75 @@
   hosts: localhost
   
   tasks:
-    - name: install visual studio code
-      snap: 
-        name: code
-        classic: yes
-    - name: install vlc
-      snap: 
-        name: vlc
-        classic: yes
-    - name: install amass
-      snap:
-        name: amass
-        classic: yes
-    - name: install keepassxc
-      snap:
-        name: keepassxc
-        classic: yes
-    - name: install youtube-dl
-      snap:
-        name: youtube-dl
-        classic: yes
+    # - name: install visual studio code
+    #   snap: 
+    #     name: code
+    #     classic: yes
+    # - name: install vlc
+    #   snap: 
+    #     name: vlc
+    #     classic: yes
+    # - name: install amass
+    #   snap:
+    #     name: amass
+    #     classic: yes
+    # - name: install keepassxc
+    #   snap:
+    #     name: keepassxc
+    #     classic: yes
+    # - name: install youtube-dl
+    #   snap:
+    #     name: youtube-dl
+    #     classic: yes
 
 
 
 
-    - name: install ffmpeg
-      apt:
-        name: ffmpeg
+    # - name: install ffmpeg
+    #   apt:
+    #     name: ffmpeg
     - name: install pip3
       apt:
         name: python3-pip
-    - name: install curl
-      apt:
-        name: curl
-    - name: isntall mediainfo
-      apt:
-        name: mediainfo-gui
-    - name: install libimage-exiftool-perl
-      apt:
-        name: libimage-exiftool-perl
-    - name: install webhttrack
-      apt:
-        name: webhttrack
-    - name: install pipenv
-      apt:
-        name: pipenv
-    - name: instal recon-ng
-      apt:
-        name: recon-ng
+    # - name: install curl
+    #   apt:
+    #     name: curl
+    # - name: isntall mediainfo
+    #   apt:
+    #     name: mediainfo-gui
+    # - name: install libimage-exiftool-perl
+    #   apt:
+    #     name: libimage-exiftool-perl
+    # - name: install webhttrack
+    #   apt:
+    #     name: webhttrack
+    # - name: install pipenv
+    #   apt:
+    #     name: pipenv
+    # - name: instal recon-ng
+    #   apt:
+    #     name: recon-ng
 
 
 
-    - name: install instalooter
-      pip: 
-        name: instalooter
-    - name: install instaloader
-      pip: 
-        name: instaloader
-    - name: install twint
+    # - name: install instalooter
+    #   pip: 
+    #     name: instalooter
+    # - name: install instaloader
+    #   pip: 
+    #     name: instaloader
+    # - name: install twint
+    #   pip:
+    #     name: git+https://github.com/twintproject/twint.git
+    # - name: install Sublist3r
+    #   pip:
+    #     name: git+https://github.com/aboul3la/Sublist3r.git
+
+
+    #TODO:  migrate photon to docker build
+    - name: install photon
       pip:
-        name: git+https://github.com/twintproject/twint.git
-    - name: install Sublist3r
-      pip:
-        name: git+https://github.com/aboul3la/Sublist3r.git
-    # TODO:  migrate photon to docker build
-    #- name: install photon
-    #  pip:
-    #    name: git+https://github.com/s0md3v/Photon.git
+        name: git+https://github.com/s0md3v/Photon.git
     
     #- name: clone theHarvester
     #  git: 
@@ -91,6 +93,6 @@
     #- name: install sherlock
     #  pip:
     #    name: git+https://github.com/sherlock-project/sherlock.git
-    - name: install spiderfoot
-      pip:
-        name: git+https://github.com/smicallef/spiderfoot.git
+    # - name: install spiderfoot
+    #   pip:
+    #     name: git+https://github.com/smicallef/spiderfoot.git
