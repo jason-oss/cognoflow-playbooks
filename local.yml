@@ -107,3 +107,10 @@
     # - name: install spiderfoot
     #   pip:
     #     name: git+https://github.com/smicallef/spiderfoot.git
+    - name: clone spiderfoot
+      git: 
+        repo: https://github.com/smicallef/spiderfoot.git
+        dest: /apps/spiderfoot
+    - name: install spiderfoot
+      pip:
+        requirements: /apps/spiderfoot/requirements.txt
