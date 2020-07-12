@@ -23,10 +23,7 @@
     #   snap:
     #     name: youtube-dl
     #     classic: yes
-    - name: install docker
-      snap:
-        name: docker
-        classic: yes
+  
 
 
 
@@ -51,7 +48,7 @@
     # - name: install pipenv
     #   apt:
     #     name: pipenv
-    # - name: instal recon-ng
+    # - name: install recon-ng
     #   apt:
     #     name: recon-ng
 
@@ -75,9 +72,13 @@
     # - name: install virtualenv
     #   apt: 
     #     name: python3-virtualenv
-    # - name: install photon
-    #   pip:
-    #     name: photon
+    - name: clone photon
+      git:
+        repo: https://github.com/s0md3v/Photon.git
+        dest: /apps/photon
+    - name: install photon
+      pip:
+        requirements: /apps/photon/requirements.txt
 
 
 
