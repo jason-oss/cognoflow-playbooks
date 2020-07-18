@@ -11,10 +11,10 @@
     #   snap: 
     #     name: vlc
     #     classic: yes
-    # - name: install amass
-    #   snap:
-    #     name: amass
-    #     classic: yes
+     - name: install amass
+       snap:
+         name: amass
+         classic: yes
     # - name: install keepassxc
     #   snap:
     #     name: keepassxc
