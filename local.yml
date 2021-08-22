@@ -30,6 +30,9 @@
         requirements: /apps/photon/requirements.txt
 
 
+    - name: install golang
+      apt: golang-go
+
 
 
     
