@@ -3,18 +3,16 @@
   hosts: localhost
   
   tasks:
-    # - name: install visual studio code
-    #   snap: 
-    #     name: code
-    #     classic: yes
-    # - name: install vlc
-    #   snap: 
-    #     name: vlc
-    #     classic: yes
     - name: install amass
       snap:
        name: amass
        classic: yes
+
+
+
+
+
+
     # - name: install keepassxc
     #   snap:
     #     name: keepassxc
@@ -23,16 +21,21 @@
     #   snap:
     #     name: youtube-dl
     #     classic: yes
-  
-
-
+    # - name: install visual studio code
+    #   snap: 
+    #     name: code
+    #     classic: yes
+    # - name: install vlc
+    #   snap: 
+    #     name: vlc
+    #     classic: yes
 
     # - name: install ffmpeg
     #   apt:
     #     name: ffmpeg
-    - name: install pip3
-      apt:
-        name: python3-pip
+    # - name: install pip3
+    #  apt:
+    #    name: python3-pip
     # - name: install curl
     #   apt:
     #     name: curl
@@ -72,13 +75,13 @@
     # - name: install virtualenv
     #   apt: 
     #     name: python3-virtualenv
-    - name: clone photon
-      git:
-        repo: https://github.com/s0md3v/Photon.git
-        dest: /apps/photon
-    - name: install photon
-      pip:
-        requirements: /apps/photon/requirements.txt
+    # - name: clone photon
+    #  git:
+    #    repo: https://github.com/s0md3v/Photon.git
+    #    dest: /apps/photon
+    # - name: install photon
+    #  pip:
+    #    requirements: /apps/photon/requirements.txt
 
 
 
@@ -107,10 +110,10 @@
     # - name: install spiderfoot
     #   pip:
     #     name: git+https://github.com/smicallef/spiderfoot.git
-    - name: clone spiderfoot
-      git: 
-        repo: https://github.com/smicallef/spiderfoot.git
-        dest: /apps/spiderfoot
-    - name: install spiderfoot
-      pip:
-        requirements: /apps/spiderfoot/requirements.txt
+    # - name: clone spiderfoot
+    #  git: 
+    #    repo: https://github.com/smicallef/spiderfoot.git
+    #    dest: /apps/spiderfoot
+    # - name: install spiderfoot
+    #  pip:
+    #    requirements: /apps/spiderfoot/requirements.txt
