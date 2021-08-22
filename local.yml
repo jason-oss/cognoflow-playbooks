@@ -31,7 +31,8 @@
 
 
     - name: install golang
-      apt: golang-go
+      apt: 
+        name: golang-go
 
 
 
