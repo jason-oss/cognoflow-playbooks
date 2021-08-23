@@ -34,6 +34,17 @@
       apt: 
         name: golang-go
 
+    #  naabu (golang)
+    #  httpx (golang)
+    #  ffuf  (golang)
+    #  nuclei (golang)
+    #  Eyewitness / GoWitness
+    #  photon / gospider / hakrawler
+    #  means to pass in secure parameters (VPN & AWS creds)
+    #  vpn client (and secure config pull)
+    #  AWS/DO instance autocreation / autostart
+    #  output paths or bucket
+    #  job scripts / query scripts
 
 
     
