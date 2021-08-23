@@ -2,6 +2,9 @@
   become: true
   hosts: localhost
   
+  roles:
+    - fubarhouse.golang
+
   tasks:
     - name: install amass
       snap:
@@ -14,7 +17,13 @@
       apt:
         name: curl
 
+
+    - name: libpcap
+      apt:
+        name: libpcap-dev
   
+
+
     - name: install pipenv
       apt:
         name: pipenv
@@ -33,6 +42,10 @@
     - name: install golang
       apt: 
         name: golang-go
+
+ go_get:
+  - name: naabu
+    url: github.com/projectdiscovery/naabu/v2/cmd/naabu
 
     #  naabu (golang)
     #  httpx (golang)
