@@ -1,11 +1,6 @@
 - name: configure common utilities for osint image
   become: true
   hosts: localhost
-  
-  roles:
-    - fubarhouse.golang
-
-
 
 
   tasks:
@@ -49,14 +44,6 @@
         name: golang-go
 
  
-   go_get:
-    - name: golint
-      url: github.com/golang/lint/golint
- 
- #go_get:
- # - name: naabu
- #   url: github.com/projectdiscovery/naabu/v2/cmd/naabu
-
     #  naabu (golang)
     #  httpx (golang)
     #  ffuf  (golang)
