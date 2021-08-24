@@ -5,20 +5,10 @@
   roles:
     - fubarhouse.golang
 
-  go_get:
-    - name: golint
-      url: github.com/golang/lint/golint
+
 
 
   tasks:
-
-   # - go_get:
-   #   - name: golint
-   #     url: github.com/golang/lint/golint
-
-
-
-
     - name: install amass
       snap:
        name: amass
@@ -58,6 +48,11 @@
       apt: 
         name: golang-go
 
+ 
+   go_get:
+    - name: golint
+      url: github.com/golang/lint/golint
+ 
  #go_get:
  # - name: naabu
  #   url: github.com/projectdiscovery/naabu/v2/cmd/naabu
