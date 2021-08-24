@@ -5,8 +5,8 @@
   roles:
     - fubarhouse.golang
   go_get:
-   - name: naabu
-     url: github.com/projectdiscovery/naabu/v2/cmd/naabu
+   - name: golint
+     url: github.com/golang/lint/golint
 
   tasks:
     - name: install amass
