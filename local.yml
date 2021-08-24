@@ -4,6 +4,9 @@
   
   roles:
     - fubarhouse.golang
+  go_get:
+   - name: naabu
+     url: github.com/projectdiscovery/naabu/v2/cmd/naabu
 
   tasks:
     - name: install amass
@@ -21,7 +24,9 @@
     - name: libpcap
       apt:
         name: libpcap-dev
-  
+    - name: aws-cli
+      apt:
+        name: awscli
 
 
     - name: install pipenv
