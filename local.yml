@@ -54,9 +54,9 @@
       apt: 
         name: golang-go
 
- go_get:
-  - name: naabu
-    url: github.com/projectdiscovery/naabu/v2/cmd/naabu
+ #go_get:
+ # - name: naabu
+ #   url: github.com/projectdiscovery/naabu/v2/cmd/naabu
 
     #  naabu (golang)
     #  httpx (golang)
