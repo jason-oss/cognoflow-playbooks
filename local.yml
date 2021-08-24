@@ -43,7 +43,7 @@
       apt: 
         name: golang-go
     - name: install 
-      command: GO111MODULE=on go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu
+      command: GO111MODULE=on && go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu
 
  
     #  naabu (golang)
