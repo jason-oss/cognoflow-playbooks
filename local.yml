@@ -4,11 +4,17 @@
   
   roles:
     - fubarhouse.golang
-  go_get:
-   - name: golint
-     url: github.com/golang/lint/golint
+
 
   tasks:
+
+    - go_get:
+      - name: golint
+        url: github.com/golang/lint/golint
+
+
+
+
     - name: install amass
       snap:
        name: amass
